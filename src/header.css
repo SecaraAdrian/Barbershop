@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a { 
+  color: rgb(102, 102, 102);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: rgb(139, 139, 11);
+  transition: transform 0.5s ease-in-out;
+}
+
+.material-symbols-outlined:hover {
+  transform: translateY(-5px) rotate(45deg);
+}
