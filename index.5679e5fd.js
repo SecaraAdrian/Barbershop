@@ -1,0 +1,2 @@
+!function(){var e=document.getElementById("left-scissor"),t=document.getElementById("right-scissor");e.addEventListener("mouseenter",(function(){e.classList.add("animate")})),e.addEventListener("mouseleave",(function(){e.classList.remove("animate")})),t.addEventListener("mouseenter",(function(){t.classList.add("animate")})),t.addEventListener("mouseleave",(function(){t.classList.remove("animate")}))}();
+//# sourceMappingURL=index.5679e5fd.js.map

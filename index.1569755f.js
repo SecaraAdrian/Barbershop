@@ -1,0 +1,2 @@
+const e=document.getElementById("left-scissor"),s=document.getElementById("right-scissor");e.addEventListener("mouseenter",(()=>{e.classList.add("animate")})),e.addEventListener("mouseleave",(()=>{e.classList.remove("animate")})),s.addEventListener("mouseenter",(()=>{s.classList.add("animate")})),s.addEventListener("mouseleave",(()=>{s.classList.remove("animate")}));
+//# sourceMappingURL=index.1569755f.js.map
