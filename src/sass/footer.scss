@@ -1,0 +1,198 @@
+h3 {
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.description-footer {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #838282;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-decoration {
+  color: #fff;
+  text-decoration: none;
+  font-size: 110%;
+  display: none;
+}
+.container-contact a {
+  text-decoration: none;
+}
+
+.contact-name {
+  color: #eee347;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+}
+// .aspect-contact h3 {
+
+// }
+.logo-footer {
+  width: 260px;
+  height: auto;
+  margin-left: 80px;
+}
+
+.container-contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.schedule-list {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon:hover .schedule-list {
+  display: block;
+  position: fixed;
+  margin-right: 50px;
+  margin-top: -20px;
+  margin-left: -60px;
+}
+.schedule-list li {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.schedule-list li strong {
+  margin-right: 5px;
+}
+
+.aspect-contact div {
+  margin-bottom: 20px; /* Adaugă un spațiu între fiecare element */
+}
+
+.aspect-contact {
+  column-count: 1;
+  column-gap: 75px;
+  margin-right: 110px;
+  font-size: 110%;
+  text-align: center;
+}
+
+.aspect-contact:last-child {
+  margin-right: 100px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  color: #fff;
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Alinează vertical */
+}
+
+.social-media li {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #d8e2dc;
+  transition: all 0.5s ease;
+  display: inline-flex; /* Alinează orizontal */
+  align-items: center; /* Alinează vertical în cadrul iconiței */
+  justify-content: center; /* Alinează orizontal în cadrul iconiței */
+}
+.fas {
+  color: white;
+}
+.fa-brands {
+  color: #d8e2dc;
+  transition: all 0.5s ease;
+}
+.fa-brands,
+.fab {
+  color: white;
+}
+/* Facebook */
+li:hover.facebook {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+}
+
+li:hover .fa-facebook-f {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+}
+
+/* TikTok */
+li:hover.tiktok {
+  border: 5px solid #69c9d0;
+  box-shadow: 0 0 15px #69c9d0;
+}
+
+li:hover .fa-tiktok {
+  color: #69c9d0;
+  text-shadow: 0 0 15px #69c9d0;
+}
+
+/* Instagram */
+li:hover.instagram {
+  border-color: #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+}
+
+li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+}
+
+/* Google */
+li:hover.google {
+  border-color: #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+}
+
+li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+}
+
+/* Whatsapp */
+li:hover.whatsapp {
+  border-color: #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+}
+
+li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+}
